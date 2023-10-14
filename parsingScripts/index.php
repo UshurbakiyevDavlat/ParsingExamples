@@ -11,7 +11,7 @@ if (!$target_url) {
 // Fetch the content from the target site
 $content = file_get_contents($target_url);
 
-$pattern = '#<h1>(.+?)</h1>#su';
+$pattern = '#<h1[^>]*>(.+?)</h1>#su';
 
 preg_match($pattern, $content, $matches);
 
