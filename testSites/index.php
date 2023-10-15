@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,20 @@
     <title>TestSite</title>
 </head>
 <body>
-    <h1 class="header">Site!</h1>
+<!--    <h1 class="header">Site!</h1>-->
+<h2>111</h2>
+<p>
+    ---
+</p>
+
+<h2>222</h2>
+<p>
+    ---
+</p>
+
+<h2 class="last">333</h2>
+<p>
+    ---
+</p>
 </body>
 </html>
