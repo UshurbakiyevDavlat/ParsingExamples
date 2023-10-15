@@ -12,9 +12,14 @@ if (!$target_url) {
 $content = file_get_contents($target_url);
 
 // $pattern = '#<h1[^>]*>(.+?)</h1>#su';
-$pattern = '#<h2[^>]*>(.+?)</h2>#su';
+// $pattern = '#<h2[^>]*>(.+?)</h2>#su';
+// $pattern = '#<header[^>]*>(.+?)</header>#su';
+// $pattern = '#<footer[^>]*>(.+?)</footer>#su';
+//  $pattern = '#<title[^>]*>(.+?)</title>#su';
+//  $pattern = '#<body[^>]*>(.+?)</body>#su';
+  $pattern = '#<main[^>]*>(.+?)</main>#su';
 
-// preg_match($pattern, $content, $matches);
-preg_match_all($pattern, $content, $matches, PREG_PATTERN_ORDER);
+preg_match($pattern, $content, $matches);
+// preg_match_all($pattern, $content, $matches, PREG_PATTERN_ORDER);
 
 var_dump($matches[1]);

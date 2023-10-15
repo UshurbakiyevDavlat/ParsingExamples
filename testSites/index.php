@@ -7,6 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TestSite</title>
 </head>
+text
+<header class="header">
+    <p>
+        text
+    </p>
+    <p>
+        text
+    </p>
+</header>
+text
 <body>
 <!--    <h1 class="header">Site!</h1>-->
 <h2>111</h2>
@@ -23,5 +33,22 @@
 <p>
     ---
 </p>
+
+<div class="wrapper">
+    <main class="main">
+        основное содержимое страницы
+    </main>
+</div>
 </body>
+text
+<footer id="footer" class="footer">
+    <p>
+        textFooter
+    </p>
+    <p>
+        text
+    </p>
+</footer>
+text
+
 </html>
