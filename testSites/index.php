@@ -35,9 +35,25 @@ text
 </p>
 
 <div class="wrapper">
-    <main class="main">
-        основное содержимое страницы
+    <main>
+        <h2>---</h2>
     </main>
+    <aside>
+        <h2>+++</h2>
+        <p>
+            text
+        </p>
+
+        <h2>+++</h2>
+        <p>
+            text
+        </p>
+
+        <h2>+++</h2>
+        <p>
+            text
+        </p>
+    </aside>
 </div>
 </body>
 text
